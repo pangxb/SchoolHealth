@@ -25,6 +25,7 @@ namespace SchoolHealth
 
         private static void OpenConnectionIfNecessary()
         {
+            //open connection
             if(conn.State == ConnectionState.Closed)
             {
                 conn.Open();
